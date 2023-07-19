@@ -8,7 +8,7 @@ export type modelInfoType = {
   tested?: boolean;
   filename: string;
   value: string;
-  language: "typescript" | "javascript" | "json";
+  language: "typescript" | "javascript" | "json" | "python";
 };
 
 export type modelsInfoType = modelInfoType[];
