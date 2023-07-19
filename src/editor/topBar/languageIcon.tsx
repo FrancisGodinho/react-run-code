@@ -28,7 +28,7 @@ const useStyles = makeStyles({
 export default function LanguageIcon({
   language,
 }: {
-  language: 'typescript' | 'javascript' | 'json';
+  language: 'typescript' | 'javascript' | 'json' | 'python';
 }) {
   const classes = useStyles();
   if (language === 'javascript') {
